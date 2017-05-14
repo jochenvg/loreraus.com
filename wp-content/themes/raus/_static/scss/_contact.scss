@@ -1,0 +1,149 @@
+.page-id-9{
+	background-color: transparent;
+
+	#wrapper{
+		min-height: 100%;
+		height: 100%;
+
+		article{
+			background: rgba(255,255,255,0.75);
+			width: 550px;
+			height: 100%;
+			margin: 0 150px 0 auto;
+			padding: 0;
+
+			.social_channels{
+				text-align: center;
+			}
+
+			h2{
+				padding-top: 30px;
+				text-align: center;
+				margin-bottom: 50px;
+
+				.underline{
+					padding: 10px;
+					border-bottom: 1px solid #3e3e3e;
+				}
+			}
+
+			p{
+				text-align: center;
+				font-style: italic;
+			}
+
+			a{
+				color: #7aadaf;
+			}
+
+			.contact-form-container{
+				height: 350px;
+			}
+
+			.wpcf7-not-valid-tip{
+				display: none !important;
+			}
+
+			form{
+				position: relative;
+				height: 280px;
+
+				.field-container{
+					position: relative;
+
+					&.short{
+						width: 230px;
+
+						input{
+							width: 208px;
+						}
+					}
+
+					label{
+						position: absolute;
+						top: 11px;
+						left: 13px;
+
+						z-index: 5;
+
+						font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+						color: #34495e;
+					}
+
+					input, textarea{
+						padding: 11px;
+						border: 2px solid #7aadaf;
+
+						border-radius: 9px;
+
+						font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+						color: #34495e;
+
+						&.wpcf7-not-valid{
+							border-color: #db5252;
+						}
+					}
+
+					&#fct_name{
+						position: absolute;
+						top: 0;
+						left: 40px;
+					}
+
+					&#fct_fname{
+						position: absolute;
+						top: 50px;
+						left: 40px;
+					}
+
+					&#fct_mail{
+						position: absolute;
+						top: 0;
+						right: 40px;
+					}
+
+					&#fct_mobile{
+						position: absolute;
+						top: 50px;
+						right: 40px;
+					}
+
+					&#fct_text{
+						position: absolute;
+						top: 100px;
+						left: 40px;
+
+						textarea{
+							width: 450px;
+							height: 100px;
+						}
+					}
+
+					&#fct_submit{
+						position: absolute;
+						top: 230px;
+						left: 40px;
+
+						input{
+							background: #7aadaf;
+							color: #fff;
+							width: 476px;
+						}
+					}
+				}
+
+				.wpcf7-response-output{
+					padding: 15px;
+					background-color: #fff;
+					border: 2px solid #7aadaf;
+					border-radius: 9px;
+				}
+
+				.wpcf7-validation-errors{
+
+					border-color: #db5252;
+				}
+			}
+		}
+	}
+}

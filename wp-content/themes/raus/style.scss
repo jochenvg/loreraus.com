@@ -1,0 +1,26 @@
+/*
+Theme Name: Lore Raus
+Theme URI: http://stijnd.be/
+Author: Stijn D.
+Author URI: http://stijnd.be/
+Description: custom theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom
+Text Domain: loreraus
+*/
+
+@import "_static/scss/html5_head";
+
+@import "_static/scss/structure";
+@import "_static/scss/header";
+
+@import "_static/scss/page";
+@import "_static/scss/home";
+@import "_static/scss/biography";
+@import "_static/scss/media";
+@import "_static/scss/gallery";
+@import "_static/scss/contact";
+
+@import "_static/scss/html5_foot";

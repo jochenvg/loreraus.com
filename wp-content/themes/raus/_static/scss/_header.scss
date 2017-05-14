@@ -1,0 +1,43 @@
+/**
+ * Header *
+ */
+
+#header {
+	background: rgba(44,44,44, 0.8);
+	color: #ffffff;
+
+	h1{
+    	margin: 8px 0 0 35px;
+    	font-family: 'La Belle Aurore', serif;
+    	font-size: 40px;
+    	float: left;
+
+    	a{
+    		text-decoration: none; 
+    		color: #ffffff;
+    	}
+    }
+
+    .menu-main-menu-container{
+	    float: right;
+	    font-family: 'Josefin Sans', 'Arial', sans-serif;
+
+	    ul{
+		    list-style-type: none;
+		    margin: 16px 0 0 0;
+		    padding: 0;
+		
+		    li{
+		    	float: left;
+		    	margin-right: 24px;
+
+		    	a{
+		    		font-size: 24px;
+		    		text-decoration: none;
+		    		text-transform: uppercase;
+		    		color: #ffffff;
+		    	}
+		    }
+		}
+	}
+}

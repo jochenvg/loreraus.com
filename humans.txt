@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	WeAreWeb -- Goto WeAreWeb.be for more info!
+	Stijn Debacker -- Developer -- https://twitter.com/_stijn_d
+	Nicolas van Leekwijck -- Designer -- https://twitter.com/fabrikgrafikbe
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    Anystretch

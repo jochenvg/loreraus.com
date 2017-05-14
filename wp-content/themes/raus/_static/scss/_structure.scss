@@ -1,0 +1,23 @@
+/**
+ * Structure
+ */
+html{
+	min-height: 100%;
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	font-family: Cambria, Georgia, Palatino, Times New Roman, serif;
+	color: #3e3e3e;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Josefin Sans', 'Arial', sans-serif;
+	text-transform: uppercase;
+}
+
+#header{
+    position: relative;
+    z-index: 5;
+}
